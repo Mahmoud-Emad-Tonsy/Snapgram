@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./globals.css";
-import { Toaster } from "@/components/shared/ui/toaster";
+import { Toaster } from "@/components/ui/toaster";
 
 import SignInForm from "./_auth/forms/SignInForm";
 import SignUpForm from "./_auth/forms/SignUpForm";

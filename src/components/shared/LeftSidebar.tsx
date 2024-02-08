@@ -4,7 +4,7 @@ import { useSignOutAccount } from "@/lib/react-guery/queriesAndMutations";
 import { INavLink } from "@/types";
 import { useEffect } from "react";
 import { Link, useNavigate, NavLink, useLocation } from "react-router-dom";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 const LeftSidebar = () => {
   const { user } = useUserContext();
   const { mutate: signOut, isSuccess } = useSignOutAccount();

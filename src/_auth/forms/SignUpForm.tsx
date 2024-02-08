@@ -6,8 +6,8 @@ import { useForm } from "react-hook-form";
 
 import { Link, useNavigate } from "react-router-dom";
 
-import { Button } from "@/components/shared/ui/button";
-import Loader from "@/components/shared/ui/Loader";
+import { Button } from "@/components/ui/button";
+import Loader from "@/components/ui/Loader";
 
 import {
   Form,
@@ -16,11 +16,11 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/shared/ui/form";
+} from "@/components/ui/form";
 import { SignupValidation } from "@/lib/validation";
-import { Input } from "@/components/shared/ui/input";
+import { Input } from "@/components/ui/input";
 import { createNewAccount } from "@/lib/appwrite/api";
-import { useToast } from "@/components/shared/ui/use-toast";
+import { useToast } from "@/components/ui/use-toast";
 import {
   useCreateUserAccount,
   useSignInAccount,
